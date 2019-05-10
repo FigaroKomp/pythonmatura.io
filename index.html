@@ -8,24 +8,30 @@
     <meta name="keywords" content="Matura z Informatyki,Python, egzamin maturalny python,egzamin maturalny informatyka Matura 2019, Python matura, Informatyka Python">
     <meta name="author" content="bernie,pepe,figaro">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>pythonmatura</title>
 </head>
 
 <body>
+    <div id="container">
+        <form class="register" action="https://formspree.io/2000bit@wp.pl" method="POST">
+            <input type="text" name="name" placeholder="Imię"><br />
+            <input type="text" name="surname" placeholder="Nazwisko"><br />
+            <input type="email" name="email" placeholder="adres email"><br />
+            <input type="tel" name="phone" placeholder="numer komórkowy"><br />
+            <input type="text" name="login" placeholder="nazwa użytkownika"><br />
+            <input type="passworad" placeholder="hasło"><br />
+            <div><input type="checkbox" name="chk1" checked="true"><label for="chk1">Zgadzam się przetwarzanie moich danych, zgodnie z <a href="">
+                    <p>regulaminem</p>
+                </a></label></div><br />
+            <div><input type="checkbox" name="chk1" checked="true"><label for="chk2">Zgadzam się udostępnianie moich danych podmiotom zewnętrznym moich, zgodnie z <a href="">
+                    <p>regulaminem</p>
+                </a></label></div><br />
+            <input type="submit" value="Załóż konto">
+        </form>
+    </div>
 
-    <form action="https://formspree.io/2000bit@wp.pl" method="POST">
-        <input type="text" name="name" value="Imię"><br/>
-        <input type="text" name="surname" value="Nazwisko"><br/>
-        <input type="email" name="email" value="adres email"><br/>
-        <input type="tel" name="phone" value="numer komórkowy"><br/>
-        <input type="text" name="login" value="nazwa użytkownika"><br/>
-        <input type="password" value="hasło"><br/>
-        <input type="checkbox" name="chk1" checked="true"><label for="chk1">Zgadzam się przetwarzanie moich danych, zgodnie z <a href=""><p>regulaminem</p></a></label><br/>
-        <input type="checkbox" name="chk1" checked="true"><label for="chk2">Zgadzam się udostępnianie moich danych podmiotom zewnętrznym moich, zgodnie z <a href=""><p>regulaminem</p></a></label><br/>
-        <input type="submit" value="Załóż konto">
-    </form>
-    
 </body>
 
 </html>
